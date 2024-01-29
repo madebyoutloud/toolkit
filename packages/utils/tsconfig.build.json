@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig.json",
+
+  "compilerOptions": {
+    "declaration": true,
+    "noEmit": false /* Enabled in the base config */,
+    "removeComments": true
+  },
+  "include": ["src"],
+  "exclude": ["**/*.test.ts"]
+}

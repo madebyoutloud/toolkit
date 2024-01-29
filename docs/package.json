@@ -1,0 +1,19 @@
+{
+  "title": "Utils",
+  "private": true,
+  "description": "A JavaScript utility library.",
+  "repository": "https://git.outloud.dev/outloud/libraries/utils",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview"
+  },
+  "dependencies": {
+    "@nuxt-themes/docus": "^1.15.0",
+    "@outloud/docs": "^0.1.5"
+  },
+  "devDependencies": {
+    "nuxt": "^3.8"
+  }
+}

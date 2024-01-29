@@ -1,0 +1,35 @@
+{
+  "name": "@outloud/utils",
+  "type": "module",
+  "version": "0.0.1",
+  "private": false,
+  "packageManager": "pnpm@8.15.0",
+  "description": "",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "source": "src/index.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vitest dev",
+    "build": "unbuild && rm dist/index.d.mts dist/index.d.cts",
+    "test": "vitest run",
+    "release": "pnpm build && release-it"
+  },
+  "devDependencies": {
+    "@release-it/conventional-changelog": "^5.1.1",
+    "release-it": "^15.6.0",
+    "unbuild": "^2.0.0",
+    "vitest": "^0.34.5"
+  }
+}
