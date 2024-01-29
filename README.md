@@ -1,1 +1,1 @@
-# @outloud/docs
+# @outloud/utils
