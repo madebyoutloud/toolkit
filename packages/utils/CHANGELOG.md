@@ -1,5 +1,12 @@
 
 
+## [0.1.2](https://git.outloud.dev/outloud/libraries/utils/compare/v0.1.1...v0.1.2) (2024-02-08)
+
+
+### Features
+
+* groupBy ([e950d86](https://git.outloud.dev/outloud/libraries/utils/commits/e950d86c00814bacd5804e182f98111722638e71))
+
 ## [0.1.1](https://git.outloud.dev/outloud/libraries/utils/compare/v0.1.0...v0.1.1) (2024-01-29)
 
 
