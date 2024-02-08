@@ -6,7 +6,6 @@ dist
 dist-ssr
 node_modules
 .idea/
-.vscode
 *.log
 
 .npmrc.dev

@@ -42,7 +42,7 @@ export function debounce<F extends (...args: any) => any>(
 ): Debouncer<F> {
   if (maxWait !== undefined && wait !== undefined && maxWait < wait) {
     throw new Error(
-      `debounce: maxWaitMs (${maxWait}) cannot be less than waitMs (${wait})`,
+      `debounce: maxWait (${maxWait}) cannot be less than wait (${wait})`,
     )
   }
 
