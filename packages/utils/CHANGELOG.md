@@ -1,5 +1,12 @@
 
 
+## [0.1.4](https://git.outloud.dev/outloud/libraries/utils/compare/v0.1.3...v0.1.4) (2024-02-10)
+
+
+### Features
+
+* add wait and waitUntil ([c481d87](https://git.outloud.dev/outloud/libraries/utils/commits/c481d8791f6939d0fb5f2d4e5985f9aade25a971))
+
 ## [0.1.3](https://git.outloud.dev/outloud/libraries/utils/compare/v0.1.2...v0.1.3) (2024-02-08)
 
 
