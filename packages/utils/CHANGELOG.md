@@ -1,5 +1,12 @@
 
 
+## [0.1.5](https://git.outloud.dev/outloud/libraries/utils/compare/v0.1.4...v0.1.5) (2024-02-14)
+
+
+### Features
+
+* add uniqBy ([38f07e9](https://git.outloud.dev/outloud/libraries/utils/commits/38f07e95c72509d2091994a77a9f4eae5a042e40))
+
 ## [0.1.4](https://git.outloud.dev/outloud/libraries/utils/compare/v0.1.3...v0.1.4) (2024-02-10)
 
 
