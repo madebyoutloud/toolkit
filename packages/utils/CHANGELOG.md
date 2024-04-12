@@ -1,5 +1,12 @@
 
 
+## [0.1.6](https://git.outloud.dev/outloud/libraries/utils/compare/v0.1.5...v0.1.6) (2024-04-12)
+
+
+### Features
+
+* add chunk function ([2a9c968](https://git.outloud.dev/outloud/libraries/utils/commits/2a9c96810c8a628abc5b19cd809baafd28ed86d8))
+
 ## [0.1.5](https://git.outloud.dev/outloud/libraries/utils/compare/v0.1.4...v0.1.5) (2024-02-14)
 
 
