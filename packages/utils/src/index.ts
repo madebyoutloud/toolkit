@@ -1,3 +1,4 @@
+export * from './chunk'
 export * from './debounce'
 export * from './get'
 export * from './groupBy'
