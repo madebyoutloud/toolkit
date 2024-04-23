@@ -1,5 +1,12 @@
 
 
+## [0.1.7](https://git.outloud.dev/outloud/libraries/utils/compare/v0.1.6...v0.1.7) (2024-04-23)
+
+
+### Features
+
+* add omit ([b51433a](https://git.outloud.dev/outloud/libraries/utils/commits/b51433a2daf9197a89249e0dba5fa826c5cef04e))
+
 ## [0.1.6](https://git.outloud.dev/outloud/libraries/utils/compare/v0.1.5...v0.1.6) (2024-04-12)
 
 
