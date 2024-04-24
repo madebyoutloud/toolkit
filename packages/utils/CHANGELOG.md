@@ -1,5 +1,12 @@
 
 
+## [0.1.8](https://git.outloud.dev/outloud/libraries/utils/compare/v0.1.7...v0.1.8) (2024-04-24)
+
+
+### Features
+
+* add retry ([a554efa](https://git.outloud.dev/outloud/libraries/utils/commits/a554efa502ba2468d205d8c276495407dc6ee3b1))
+
 ## [0.1.7](https://git.outloud.dev/outloud/libraries/utils/compare/v0.1.6...v0.1.7) (2024-04-23)
 
 
