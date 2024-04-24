@@ -26,7 +26,7 @@ async function retry<Result, T extends () => Result | Promise<Result>>(
     retries = 5,
     delay,
     filter,
-  }: RetryOptions,
+  }: RetryOptions = {},
 ): Promise<Result> {
   let count = 0
 
