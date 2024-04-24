@@ -1,5 +1,12 @@
 
 
+## [0.1.9](https://git.outloud.dev/outloud/libraries/utils/compare/v0.1.8...v0.1.9) (2024-04-24)
+
+
+### Bug Fixes
+
+* default options for retry ([c2f64c2](https://git.outloud.dev/outloud/libraries/utils/commits/c2f64c2645af9f4242aa64a65efd7530a035dbd2))
+
 ## [0.1.8](https://git.outloud.dev/outloud/libraries/utils/compare/v0.1.7...v0.1.8) (2024-04-24)
 
 
