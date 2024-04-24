@@ -1,5 +1,12 @@
 
 
+## [0.1.10](https://git.outloud.dev/outloud/libraries/utils/compare/v0.1.9...v0.1.10) (2024-04-24)
+
+
+### Features
+
+* add wrap to retry ([ff651bf](https://git.outloud.dev/outloud/libraries/utils/commits/ff651bfbb0975c69df503cfab1634983ca01e62f))
+
 ## [0.1.9](https://git.outloud.dev/outloud/libraries/utils/compare/v0.1.8...v0.1.9) (2024-04-24)
 
 
