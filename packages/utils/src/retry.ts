@@ -20,14 +20,18 @@ function exponentialDelay(factor = 100): RetryDelayFn {
   }
 }
 
-async function retry<Result, T extends () => Result | Promise<Result>>(
+function wrap<T extends (...args: any[]) => any>(fn: T, options: RetryOptions = {}): (...args: Parameters<T>) => Promise<ReturnType<Awaited<T>>> {
+  return (...args) => retry(() => fn(...args), options)
+}
+
+async function retry<T extends (...args: any[]) => any>(
   fn: T,
   {
     retries = 5,
     delay,
     filter,
   }: RetryOptions = {},
-): Promise<Result> {
+): Promise<Awaited<ReturnType<T>>> {
   let count = 0
 
   do {
@@ -49,6 +53,7 @@ async function retry<Result, T extends () => Result | Promise<Result>>(
 }
 
 const api = Object.assign(retry, {
+  wrap,
   constantDelay,
   exponentialDelay,
 })
