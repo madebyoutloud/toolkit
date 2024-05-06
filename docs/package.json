@@ -1,19 +1,19 @@
 {
-  "title": "Utils",
-  "private": true,
-  "description": "A JavaScript utility library.",
-  "repository": "https://git.outloud.dev/outloud/libraries/utils",
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
   "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
   },
-  "dependencies": {
-    "@nuxt-themes/docus": "^1.15.0",
-    "@outloud/docs": "^0.1.5"
-  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "devDependencies": {
-    "nuxt": "^3.8"
+    "vitepress": "^1.1.4"
   }
 }

@@ -8,9 +8,4 @@ node_modules
 .idea/
 *.log
 
-.npmrc.dev
-
-packages/model/.npmrc
-
-.nuxt
-.output
+cache

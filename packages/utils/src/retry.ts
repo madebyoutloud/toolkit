@@ -43,12 +43,12 @@ async function retry<T extends (...args: any[]) => any>(
         throw error
       }
 
+      count += 1
+
       if (delay) {
         await new Promise(resolve => setTimeout(resolve, delay(count, error)))
       }
     }
-
-    count += 1
   } while (true)
 }
 
