@@ -5,6 +5,7 @@ export default defineConfig({
   title: 'Outloud Utils',
   description: 'JavaScript utility functions',
   srcDir: 'content',
+  cleanUrls: true,
   themeConfig: {
     search: {
       provider: 'local',
