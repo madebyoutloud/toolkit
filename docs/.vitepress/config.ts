@@ -2,11 +2,16 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: 'Outloud Utils',
+  title: 'Utils',
   description: 'JavaScript utility functions',
-  srcDir: 'content',
   cleanUrls: true,
+  head: [
+    ['link', { rel: 'icon', href: '/favicon.ico', sizes: '32x32' }],
+    ['link', { rel: 'icon', href: '/favicon.svg', type: 'image/svg+xml' }],
+  ],
   themeConfig: {
+    logo: '/logo.svg',
+
     search: {
       provider: 'local',
       options: {
@@ -16,40 +21,40 @@ export default defineConfig({
 
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Docs', link: '/getting-started' },
+      { text: 'Docs', link: '/guide/getting-started' },
     ],
 
     sidebar: [
       {
         text: 'Introduction',
-        items: [{ text: 'Getting Started', link: '/getting-started' }],
+        items: [{ text: 'Getting Started', link: '/guide/getting-started' }],
       },
       {
         text: 'Function',
         items: [
-          { text: 'identity', link: '/identity' },
-          { text: 'debounce', link: '/debounce' },
-          { text: 'retry', link: '/retry' },
-          { text: 'wait', link: '/wait' },
-          { text: 'waitUntil', link: '/wait-until' },
+          { text: 'identity', link: '/api/identity' },
+          { text: 'debounce', link: '/api/debounce' },
+          { text: 'retry', link: '/api/retry' },
+          { text: 'wait', link: '/api/wait' },
+          { text: 'waitUntil', link: '/api/wait-until' },
         ],
       },
       {
         text: 'Array',
         items: [
-          { text: 'chunk', link: '/chunk' },
-          { text: 'groupBy', link: '/group-by' },
-          { text: 'uniq', link: '/uniq' },
-          { text: 'uniqBy', link: '/uniq-by' },
+          { text: 'chunk', link: '/api/chunk' },
+          { text: 'groupBy', link: '/api/group-by' },
+          { text: 'uniq', link: '/api/uniq' },
+          { text: 'uniqBy', link: '/api/uniq-by' },
         ],
       },
       {
         text: 'Object',
         items: [
-          { text: 'get', link: '/get' },
-          { text: 'omit', link: '/omit' },
-          { text: 'pick', link: '/pick' },
-          { text: 'set', link: '/set' },
+          { text: 'get', link: '/api/get' },
+          { text: 'omit', link: '/api/omit' },
+          { text: 'pick', link: '/api/pick' },
+          { text: 'set', link: '/api/set' },
         ],
       },
     ],

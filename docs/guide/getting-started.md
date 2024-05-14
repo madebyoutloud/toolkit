@@ -1,6 +1,10 @@
 # Getting Started
 
 ## Installation
+
+> [!NOTE]
+> This package is currently private and you will need an access token or package archive.
+
 ::: code-group
 ```sh-vue [npm]
 npm add -D {{$packageName}}
