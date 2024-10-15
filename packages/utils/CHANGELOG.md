@@ -1,5 +1,12 @@
 
 
+## [0.1.11](https://git.outloud.dev/outloud/libraries/utils/compare/v0.1.10...v0.1.11) (2024-10-15)
+
+
+### Features
+
+* add toArray ([d659c3b](https://git.outloud.dev/outloud/libraries/utils/commits/d659c3b58b051a337d17dcf27bf09430f789fa87))
+
 ## [0.1.10](https://git.outloud.dev/outloud/libraries/utils/compare/v0.1.9...v0.1.10) (2024-04-24)
 
 
