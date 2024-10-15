@@ -1,5 +1,12 @@
 
 
+## [0.1.12](https://git.outloud.dev/outloud/libraries/utils/compare/v0.1.11...v0.1.12) (2024-10-15)
+
+
+### Bug Fixes
+
+* export toArray ([0cbeacc](https://git.outloud.dev/outloud/libraries/utils/commits/0cbeaccaef24b877265c794260d4af02d2031f5a))
+
 ## [0.1.11](https://git.outloud.dev/outloud/libraries/utils/compare/v0.1.10...v0.1.11) (2024-10-15)
 
 
