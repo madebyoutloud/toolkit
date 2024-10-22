@@ -1,3 +1,4 @@
+export * from './catchError'
 export * from './chunk'
 export * from './debounce'
 export * from './get'
