@@ -1,5 +1,12 @@
 
 
+## [0.1.13](https://git.outloud.dev/outloud/libraries/utils/compare/v0.1.12...v0.1.13) (2024-10-22)
+
+
+### Features
+
+* add catchError ([aee8c2b](https://git.outloud.dev/outloud/libraries/utils/commits/aee8c2b4555be41e7895387a6b54698e19dcd478))
+
 ## [0.1.12](https://git.outloud.dev/outloud/libraries/utils/compare/v0.1.11...v0.1.12) (2024-10-15)
 
 
