@@ -32,6 +32,7 @@ export default defineConfig({
       {
         text: 'Function',
         items: [
+          { text: 'catchError', link: '/api/catch-error' },
           { text: 'identity', link: '/api/identity' },
           { text: 'debounce', link: '/api/debounce' },
           { text: 'retry', link: '/api/retry' },
@@ -44,6 +45,7 @@ export default defineConfig({
         items: [
           { text: 'chunk', link: '/api/chunk' },
           { text: 'groupBy', link: '/api/group-by' },
+          { text: 'toArray', link: '/api/to-array' },
           { text: 'uniq', link: '/api/uniq' },
           { text: 'uniqBy', link: '/api/uniq-by' },
         ],
