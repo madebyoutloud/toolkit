@@ -1,5 +1,12 @@
 
 
+## [0.1.14](https://git.outloud.dev/outloud/libraries/utils/compare/v0.1.13...v0.1.14) (2024-12-20)
+
+
+### Bug Fixes
+
+* catchError result type ([e09a8a9](https://git.outloud.dev/outloud/libraries/utils/commits/e09a8a95610e2fbcd71323f56961ede07b93bc97))
+
 ## [0.1.13](https://git.outloud.dev/outloud/libraries/utils/compare/v0.1.12...v0.1.13) (2024-10-22)
 
 
