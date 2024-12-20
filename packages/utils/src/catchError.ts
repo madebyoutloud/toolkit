@@ -1,6 +1,6 @@
 type Result<T> = [T, null] | [null, Error]
 
-export function catchError<T>(input: () => T): T extends Promise<any> ? Promise<Awaited<T>> : Result<T>
+export function catchError<T>(input: () => T): T extends Promise<any> ? Promise<Result<Awaited<T>>> : Result<T>
 export function catchError<T>(input: Promise<T>): Promise<Result<T>>
 export function catchError<T extends Promise<any> | (() => any)>(input: T): Promise<Result<any>> | Result<any> {
   try {
