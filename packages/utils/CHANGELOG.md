@@ -1,5 +1,12 @@
 
 
+## [0.1.15](https://git.outloud.dev/outloud/libraries/utils/compare/v0.1.14...v0.1.15) (2025-02-24)
+
+
+### Bug Fixes
+
+* pick and omit types ([5dc3d4b](https://git.outloud.dev/outloud/libraries/utils/commits/5dc3d4b400cfdf04804fbea5e5319a7c1bed1576))
+
 ## [0.1.14](https://git.outloud.dev/outloud/libraries/utils/compare/v0.1.13...v0.1.14) (2024-12-20)
 
 
