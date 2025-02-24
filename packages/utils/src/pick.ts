@@ -1,11 +1,14 @@
-export function pick<T extends object, K extends keyof T>(
+export function pick<
+  T extends object,
+  const Keys extends ReadonlyArray<keyof T>,
+>(
   object: T,
-  keys: Readonly<K[]>,
-): Pick<T, K> {
-  return keys.reduce((acc, key) => {
+  keys: Keys,
+): Pick<T, Keys[number]> {
+  return keys.reduce((result, key) => {
     if (key in object) {
-      acc[key] = object[key]
+      result[key] = object[key]
     }
-    return acc
-  }, {} as Pick<T, K>)
+    return result
+  }, {} as Pick<T, Keys[number]>)
 }
