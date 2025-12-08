@@ -1,5 +1,12 @@
 
 
+## [0.1.16](/compare/v0.1.15...v0.1.16) (2025-12-08)
+
+
+### Bug Fixes
+
+* publish 6ee6260
+
 ## [0.1.15](https://git.outloud.dev/outloud/libraries/utils/compare/v0.1.14...v0.1.15) (2025-02-24)
 
 
