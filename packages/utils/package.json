@@ -24,6 +24,7 @@
     "dev": "vitest dev",
     "build": "unbuild && rm dist/index.d.mts dist/index.d.cts",
     "test": "vitest run",
+    "prepack": "pnpm build",
     "release": "pnpm build && release-it"
   },
   "devDependencies": {
