@@ -7,13 +7,8 @@
     "dev:docs": "pnpm --filter docs dev",
     "build:docs": "pnpm --filter docs build",
     "generate:docs": "pnpm --filter docs generate",
-    "dev:library": "pnpm --filter @outloud/model dev",
-    "build:library": "pnpm --filter @outloud/model build",
-    "test:library": "pnpm --filter @outloud/model test",
-    "release:library": "pnpm --filter @outloud/model release",
     "lint": "eslint . --ext=.ts,.vue --fix",
-    "typecheck": "pnpm --parallel typecheck",
-    "postinstall": "pnpm build:library"
+    "typecheck": "pnpm --parallel typecheck"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.6.3",
