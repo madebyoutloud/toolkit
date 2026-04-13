@@ -1,3 +1,5 @@
+export * from './function/once'
+
 export * from './catchError'
 export * from './chunk'
 export * from './debounce'

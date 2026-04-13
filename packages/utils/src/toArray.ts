@@ -1,4 +1,4 @@
-export function toArray<T>(value: T[] | T | null | undefined): T[] {
+export function toArray<T>(value: readonly T[] | T | null | undefined): T[] {
   if (Array.isArray(value)) {
     return value
   }
@@ -7,5 +7,5 @@ export function toArray<T>(value: T[] | T | null | undefined): T[] {
     return []
   }
 
-  return [value]
+  return [value] as T[]
 }
